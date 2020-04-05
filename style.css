@@ -8,61 +8,55 @@ body {
     height: 250px;
     width: 200px;
     box-shadow: 2px 2px 5px rgb(75, 73, 73);
-    margin-top: 150px;
-    margin-left: 10px;
-    border-radius: 10px;
+    border-radius: 150%;
+    opacity: 90%;
+    margin-left: 10%; 
+    margin-top: 5%; 
+   
     
-
     
-    
-
-
-
-
 }
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8mm;
+    color: black;
+    opacity: 70%;
+    margin-left: 500px;
+   word-wrap: normal;
+   text-align: left;
+   
+}
+
+
+
+
+
 
 h1{
-    color: whitesmoke; 
-    font-style: normal;
-    font-size: 50px;
-text-shadow: 1px 1px 1px rgba(0,0,0.3);
-margin-left: 700px;
-margin-top: initial;
-
-
-
-
-
-
+    color: black;
+    font-size: 19mm;
+    text-shadow: 1px 1px 1px rgb(49, 48, 48);
+    margin-left: 700px;
+    margin-top: initial;
+    opacity: 90%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    opacity: 75%;    
 }
 
-.w3-button{
-
-    Color: Black;
-    box-shadow: 2px 2px 2px rgb(73, 71, 71);
-    border-radius: 5px;
-    padding: 3px;
-    font-family: 'Times New Roman', Times, serif;
-    border: transparent; 
-    
-    
-}
 #banner {
     background-image: url('https://images.unsplash.com/photo-1559474256-ed9f53f0ef27?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     background-position-y: center;
-    height: 700px;
-    width: 93.8vw;
+    width: 47vw;
     border: 3px transparent grey;
-    padding: 50px;
+    padding: 500px;
     box-shadow: 1px 1px 1px rgb(53, 52, 52);
     border-radius: 50px;
-    opacity: 50%;
-    
-  
-    
-}
+    opacity: 40%;
+    position: fixed;
+    height: 75vh;
+   }
 
 #inside {
     background-color: rgba(255,255,255,1);
@@ -73,5 +67,43 @@ margin-top: initial;
     
     
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(71, 67, 67);
+    border-radius: 60px;
+    opacity: 60%;
+    
+  }
 
+  
+ul li {
+      float: right; 
+    }
 
+#Me {
+    float: left; 
+    }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+   /*Change the link hover color*/
+ li a:hover {
+    background-color: grey;
+    color:maroon;  
+     opacity: 50%
+ }
+
+ .active{
+     background-color: rgb(53, 52, 52);
+     color: whitesmoke;
+     
+ }
